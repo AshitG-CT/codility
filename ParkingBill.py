@@ -1,4 +1,5 @@
 '''
+https://app.codility.com/programmers/trainings/5/parking_bill/
 You parked your car in a parking lot and want to compute the total cost of the ticket. The billing rules are as follows:
 
 The entrance fee of the car parking lot is 2;
