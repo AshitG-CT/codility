@@ -1,4 +1,4 @@
 # codility
 codility for python
 
-Python Interview Coding Questions with Solutions for Beginners
+Python Interview Coding Questions with Solutions
