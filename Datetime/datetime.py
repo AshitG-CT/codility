@@ -1,0 +1,27 @@
+import datetime
+import pytz 
+  
+# get the standard UTC time  
+UTC = pytz.utc 
+  
+# it will get the time zone  
+# of the specified location 
+IST = pytz.timezone('Asia/Kolkata') 
+  
+# print the date and time in 
+# standard format 
+print("UTC in Default Format : ",  
+      datetime.datetime.now(UTC)) 
+  
+print("IST in Default Format : ",  
+      datetime.datetime.now(IST)) 
+  
+# print the date and time in  
+# specified format 
+datetime_utc = datetime.datetime.now(UTC) 
+print("Date & Time in UTC : ", 
+      datetime_utc.strftime('%Y:%m:%d %H:%M:%S %Z %z')) 
+  
+datetime_ist = datetime.datetime.now(IST) 
+print("Date & Time in IST : ",  
+      datetime_ist.strftime('%Y:%m:%d %H:%M:%S %Z %z')) 
